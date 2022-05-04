@@ -1,6 +1,6 @@
 const header = {
-  homepage: 'https://github.com/quawilburn',
-  title: 'DW',
+  homepage: 'https://dwportfolio.vercel.app/',
+  title: 'QUA',
 }
 
 const about = {
@@ -25,6 +25,21 @@ const projects = [
     sourceCode: 'https://github.com/quawilburn/BookFinder',
     livePreview: 'https://book-finder-wheat.vercel.app/',
   },
+  {
+    name: 'What To Watch',
+    description:
+      'This application allows for you to search movies and preview trailers for thos movies.',
+    stack: ['React', 'React-Dom', 'Axios'],
+    sourceCode: 'https://github.com/quawilburn/WhatToWatch',
+    livePreview: 'https://what-to-watch-seven.vercel.app/',
+  },
+  {
+    name: 'Sell Your Books',
+    description:
+      'This application allows for you to search movies and preview trailers for thos movies.',
+    stack: ['MongoDB', 'Express', 'React', 'NodeJs'],
+    sourceCode: 'https://github.com/quawilburn/SellYourBooks',
+  },
 ]
 
 const skills = [
@@ -40,6 +55,9 @@ const skills = [
   'PostreSQL',
   'Jest',
   'NodeJs',
+  'Express',
+  'SQL',
+  'MongoDB',
 ]
 
 const contact = {
