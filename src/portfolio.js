@@ -36,9 +36,17 @@ const projects = [
   {
     name: 'Sell Your Books',
     description:
-      'This application allows for you to search movies and preview trailers for thos movies.',
+      'Post your books application using MongoDB, Express, NodeJs, and React',
     stack: ['MongoDB', 'Express', 'React', 'NodeJs'],
     sourceCode: 'https://github.com/quawilburn/SellYourBooks',
+  },
+  {
+    name: 'To-Do App',
+    description:
+      'A simple to-do application using React, Redux and styled using CSS.',
+    stack: ['React', 'Redux', 'CSS'],
+    sourceCode: 'https://github.com/quawilburn/ToDo-App-React_Redux',
+    livePreview: 'to-do-app-react-redux.vercel.app/',
   },
 ]
 
